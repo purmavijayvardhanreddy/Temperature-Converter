@@ -1,0 +1,33 @@
+#div1{
+    background-color: bisque;
+    padding: 100px;
+    margin-top: 90px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+#div2{
+    background-color:aquamarine;
+    padding :0.02px 0 0.02px 0;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+#p{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+#h{
+    margin-left: 45%;
+    margin-top: 0%;
+    font-size: 30px;
+    
+}
+#bt{
+    margin-left: 45%;
+    padding: 5px;
+    font-size: larger;
+}
