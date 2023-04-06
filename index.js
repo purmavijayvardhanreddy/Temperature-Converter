@@ -5,6 +5,8 @@ var sl=document.getElementById('sel')
 var tx=document.getElementById('h')
 var tx1=document.getElementById('p1')
 var tx2=document.getElementById('p2')
+var tx3=document.getElementById('far1')
+var tx4=document.getElementById('cel1')
 
 
 ipt.addEventListener('blur',function(ob){
@@ -46,15 +48,15 @@ sl.addEventListener('change',function(b){
   
     if (t=="fahrenheitToCelsius"){
         tx.innerText="°F   to   °C";
-        // tx1.innerText="°F";
-        // tx2.innerText="°C";
-
+        tx4.innerHTML="Fahrenheit"
+        tx3.innerHTML="Celsius"
+     
     }
     else{
         tx.innerText="°C   to   °F";
-        // tx2.innerText="°F";
-        // tx1.innerText="°C";
-
+        tx4.innerHTML="Celsius"
+        tx3.innerHTML="Fahrenheit"
+    
     }
 
 
